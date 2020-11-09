@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+table {
+    width: 850px;
+    height: 300px;
+    border-collapse: collapse;
+    border: #b4a5bb;
+}
+.color_th {
+    background-color: #9a4285;
+    background-image: linear-gradient(to right, #9a4285, #62838f);
+}
+th {
+    font-weight: bold;
+    color: white;
+    padding: 0 15px;
+}
+td {
+    padding: 0 15px;
+}
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
